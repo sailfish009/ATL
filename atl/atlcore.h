@@ -109,7 +109,7 @@ class CComAutoCriticalSection : public CComCriticalSection
 public:
     CComAutoCriticalSection()
     {
-		HRESULT hResult; // __MINGW_ATTRIB_UNUSED;
+        HRESULT hResult; // __MINGW_ATTRIB_UNUSED;
 
         hResult = CComCriticalSection::Init();
         ATLASSERT(SUCCEEDED(hResult));
